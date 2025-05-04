@@ -1,0 +1,198 @@
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+body { 
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  margin: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #1a1a1a;
+}
+
+h1, h2, h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-right: 45px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+path {
+    fill: rgb(124, 58, 237);
+}
+
+ #sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    color: white;
+    padding-top: 20px;
+    z-index: 1000;
+}
+
+#main-content {
+    margin-right: 250px;
+    padding: 20px;
+}
+
+#message-display {
+    position: absolute;
+    width: 30vw;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    z-index: 1000; /* Ensure it's above other elements */
+    text-align: center;
+    font-style: italic;
+}
+
+#message-display > p {
+    margin: 16px 50px;
+}
+
+.window-section { 
+    padding-left: 8px;
+    padding-bottom: 15px;
+}
+
+
+.window-title-bar {
+  display: flex;
+  justify-content: space-between; /* Distribute space between title and actions */
+  align-items: center; /* Vertically align items in the bar */
+/*  margin-bottom: 10px;*/
+}
+
+.window-title, .window-actions { 
+/*    margin-bottom: 10px;*/
+/*    display: inline-block;*/
+}
+
+.window-actions > button {
+/*  padding: 8px 12px 8px 16px;*/
+  height: 30px;
+  width: 95px;
+  margin-right: 12px;
+  border: none;
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.window-actions > button:hover {
+  background-color: rgb(124, 58, 237);
+  color: white;
+}
+
+.window-tag {
+    margin-right: 5px;
+    padding: 2px 5px;
+    color: #686868;
+    border: 3px solid #686868;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.window-title {
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*.ungrouped-tabs-section { 
+    margin-bottom: 10px; 
+}*/
+
+/*.ungrouped-title { 
+    font-style: italic; 
+    margin-bottom: 5px;
+    margin-left: 15px; 
+    color: #9d9d9d;
+}*/
+
+.tab-item { 
+    margin-left: 10px; 
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer; 
+}
+
+.group-tab-item { 
+    margin-left: 15px; 
+    margin-bottom: 8px; 
+    cursor: pointer; 
+}
+
+.tab-item:hover, .group-tab-item:hover {
+    color: rgba(255, 255, 255, 0.8);
+/*    background-color: rgba(255, 255, 255, 0.05);*/
+}
+
+.tab-group-section { 
+    margin-top: 8px;
+    margin-bottom: 14px; 
+    border-left: 2px solid #484848; 
+    padding-left: 10px; 
+}
+
+.group-title { 
+    text-transform: lowercase;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px 9px;
+    border-radius: 4px;
+    color: white; 
+    cursor: pointer;
+    display: inline-block;
+}
+
+.favicon-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}

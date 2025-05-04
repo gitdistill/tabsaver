@@ -1,0 +1,33 @@
+    body { 
+        font-family: ui-monospace, monospace; 
+        margin: 20px; 
+    }
+
+    .tag-section { 
+        margin-bottom: 20px; 
+    }
+
+    .tag-title { 
+        font-weight: bold; margin-bottom: 5px; 
+    }
+
+    .saved-item { 
+        padding: 8px;
+        background-color: #ddd; 
+    }
+
+    .item-title { 
+        cursor: pointer; 
+    } /* Added cursor for interaction */
+
+    .item-tags { 
+        font-size: 1.4em; color: #777; 
+    }
+
+    .group-tabs { 
+        margin-left: 15px; font-size: 0.9em; 
+    }
+
+    .group-tabs li { 
+        cursor: pointer; 
+    } /* Added cursor for interaction */
